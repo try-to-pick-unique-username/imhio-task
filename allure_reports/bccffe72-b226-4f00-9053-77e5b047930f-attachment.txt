@@ -1,1 +1,0 @@
-Sending post request to the http://localhost:58001/nps
