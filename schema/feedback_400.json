@@ -1,0 +1,29 @@
+{
+  "$id": "http://localhost/root.json",
+  "type": "object",
+  "required": [
+    "errors",
+    "status"
+  ],
+  "properties": {
+    "errors": {
+      "$id": "#/properties/errors",
+      "type": "array",
+      "items": {
+        "$id": "#/properties/errors/items",
+        "type": "string",
+        "enum": [
+          "Invalid rate",
+          "User action is required"
+        ]
+      }
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string",
+      "enum": [
+        "error"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$id": "http://localhost/root.json",
+  "type": "object",
+  "required": [
+    "status"
+  ],
+  "properties": {
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string",
+      "enum": [
+        "ok"
+      ]
+    }
+  }
+}

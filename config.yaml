@@ -1,0 +1,5 @@
+environment:
+  host: localhost:58001
+  schema: http://
+endpoints:
+  nps: /nps
